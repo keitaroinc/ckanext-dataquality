@@ -3,7 +3,7 @@ import logging
 from ckan.plugins.toolkit import get_action
 from ckan.logic import check_access, ValidationError
 
-from ckanext.datastore.db import InvalidDataError
+from ckanext.datastore.backend import InvalidDataError
 
 from ckanext.dataquality.controllers.validator import ValidatorController
 from ckanext.dataquality.helpers import should_validate_resource
